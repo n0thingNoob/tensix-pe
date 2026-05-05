@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Generated artefacts (kept .gitkeep)
+generated/tanto/add_relu_fused/
+generated/tanto/add_relu_split/
+results/*
+!results/.gitkeep
+
+# pytest / build
+.pytest_cache/
+build/
+dist/
